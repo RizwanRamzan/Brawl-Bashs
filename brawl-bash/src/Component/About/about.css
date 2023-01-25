@@ -1,0 +1,86 @@
+#aboutContainer {
+  width: 1280px;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  gap: 30px;
+}
+.card {
+  height: 98%;
+  width: 99%;
+  margin: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.cardContainer {
+  background-color: #252d3c;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  /* padding: 2px 16px; */
+  height: 100%;
+}
+
+.background {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  background-size: cover;
+  background-image: url(/public/path.svg);
+}
+.textHeadingStyle {
+  font-family: Luckiest Guy;
+  color: black;
+}
+.textStyle {
+  font-family: Luckiest Guy;
+  color: #494947;
+}
+
+.infinity {
+  position: relative;
+  width: 200px;
+  height: 90px;
+  box-sizing: content-box;
+}
+.infinity:before,
+.infinity:after {
+  content: "";
+  box-sizing: content-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border: 20px solid #0081fc;
+  border-radius: 40px 50px 0 50px;
+  transform: rotate(-45deg);
+}
+.infinity:after {
+  left: auto;
+  right: 0;
+  border-radius: 50px 50px 50px 0;
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 700px) {
+  #aboutContainer {
+    flex-direction: column;
+    visibility: visible;
+    position: relative;
+  }
+
+  .cardContainer {
+    width: 80%;
+    /* margin-left: 30px; */
+    margin-bottom: 20px;
+  }
+}
+/* @media screen and (max-width: 480px) {
+    
+  } */

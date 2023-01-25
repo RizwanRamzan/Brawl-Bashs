@@ -1,0 +1,263 @@
+.space{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 40%;
+    height: 15vh;
+    border-radius: 5px;
+    border:2px solid black;
+    font-family:Luckiest Guy;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(bottom, #FFCC00  10%, #FFDA48 50%, #FFF430 100%, #000000 100%);
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* visibility: visible;
+    position: relative;
+    animation-duration: 5s;
+    animation-name: button;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; */
+    margin-left: 10px;
+}
+/* @keyframes button {
+  0%   {right:80px;top:-100px;}
+  20%   {right:-40px;top:-100px;}
+  40%   {right:40px;top:-100px;}
+  60%   {right:-40px;top:0px;}
+  100% {right:10px; top:0px;}
+} */
+
+.button1{
+    width: 40%;
+    height: 15vh;
+    border:2px solid black;
+    font-family:Luckiest Guy;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    align-items: center;
+    background: -webkit-linear-gradient(bottom, #FFCC00  10%, #FFDA48 50%, #FFF430 100%, #000000 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-left: 10px;
+    /* visibility: visible;
+    position: relative;
+    animation-duration: 5s;
+    animation-name: button1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; */
+}
+/* @keyframes button1 {
+  0%   {right:80px;top:-100px;}
+  20%   {right:-40px;top:-100px;}
+  40%   {right:40px;top:-100px;}
+  60%   {right:-40px;top:0px;}
+  100% {right:0px; top:0px;}
+} */
+.button2{
+    width: 40%;
+    height: 15vh;
+    border:2px solid black;
+    font-family:Luckiest Guy;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(top, #FFCC00  10%, #FFDA48 50%, #FFF430 100%, #000000 100%);
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-left: 10px;
+    /* visibility: visible;
+    position: relative;
+    animation-duration: 5s;
+    animation-name: button2;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; */
+}
+/* @keyframes button2 {
+  0%   {right:80px;top:100px;}
+  20%   {right:-40px;top:100px;}
+  40%   {right:40px;top:100px;}
+  60%   {right:-40px;top:0px;}
+  100% {right:10px; top:0px;}
+} */
+.button3{
+    width: 40%;
+    height: 15vh;
+    border:2px solid black;
+    font-family:Luckiest Guy;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 34px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(top, #FFCC00  10%, #FFDA48 50%, #FFF430 100%, #000000 100%);
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* visibility: visible;
+    position: relative;
+    animation-duration: 5s;
+    animation-name: button3;
+    animation-fill-mode: forwards;  
+    animation-delay: 1s; */
+    margin-left: 10px;
+}
+/* @keyframes button3 {
+  0%   {right:80px;top:100px;}
+  20%   {right:-40px;top:100px;}
+  40%   {right:40px;top:100px;}
+  60%   {right:-40px;top:0px;}
+  100% {right:0px; top:0px;}
+} */
+.button:hover{
+    width: 40%;
+    height: 15vh;
+    border-radius: 5px;
+    border:2px solid black;
+    font-family:Luckiest Guy;
+    color: #5D380D;
+    cursor: pointer;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DD920E;
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.button1:hover{
+    width: 40%;
+    height: 15vh;
+    border:2px solid black;
+    font-family:Luckiest Guy;
+    border-radius: 5px;
+    color: #5D380D;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    align-items: center;
+    background: #DD920E;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.button2:hover{
+    width: 40%;
+    height: 15vh;
+    border:2px solid black;
+    font-family:Luckiest Guy;
+    border-radius: 5px;
+    color: #5D380D;
+    cursor: pointer;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DD920E;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.button3:hover{
+    width: 40%;
+    height: 15vh;
+    border:2px solid black;
+    font-family:Luckiest Guy;
+    border-radius: 5px;
+    color: #5D380D;
+    font-size: 34px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DD920E;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.reward{
+    font-family:Luckiest Guy;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 36px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 30vw;
+    height: 50vh;
+    }
+.hexagon {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-color: #343C51;
+
+  }
+  @media screen and (max-width:700px) {
+    .reward{
+        font-size: 15px;
+        width: 30vw;
+        height: 20vh;
+        }
+    .button{
+        font-size: 15px;
+        height: 10vh;
+    }
+    .button1{
+        font-size: 15px;
+        height: 10vh;
+
+    }
+    .button2{
+        font-size: 15px;
+        height: 10vh;
+
+    }
+    .button3{
+        font-size: 15px;
+        height: 10vh;
+
+    }
+    .button:hover{
+        font-size: 15px;
+        height: 10vh;
+
+    }
+    .button1:hover{
+        font-size: 15px;
+        height: 10vh;
+
+    }
+    .button2:hover{
+        font-size: 15px;
+        height: 10vh;
+
+    }
+    .button3:hover{
+        font-size: 15px;
+        height: 10vh;
+
+    }
+    .hexagon {  
+        left:10px;
+      }
+       
+  }

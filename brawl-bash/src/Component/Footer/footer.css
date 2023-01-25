@@ -1,0 +1,183 @@
+.baba {
+  position: relative;
+}
+
+#footerDiv {
+  height: 90vh;
+  margin-top: 20px;
+}
+
+
+.parallelogram1 a{
+  color: white;
+  text-decoration: none;   
+ }
+
+/* .parallelogram2 {
+  margin-top: 10px;
+  padding: 30px;
+  width: 400px;
+  height: 30vh;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Luckiest Guy;
+  color: #ffffff;
+  border-radius: 10px;
+  transform: skew(-2deg);
+  background-color: #343c51;
+  border: 4px solid black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} */
+.parallelogram1 {
+  width: 10%;
+  height: 72px;
+  font-family: Luckiest Guy;
+  color: #ffffff;
+  box-sizing: border-box;
+  margin: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#aboutFooterContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 30px;
+  margin-left: 50px;
+  margin-right: 50px
+  ;
+}
+
+.container {
+  padding: 2px 16px;
+  height: 100%;
+}
+.footerContainer {
+  background-color: #343c51;
+  height: 50vh;
+  width: 500px;
+  border-radius: 10px;
+  transform: skew(-1deg);
+  animation-name: gole;
+  animation-duration: 8s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes gole {
+  0% {
+    left: 40px;
+  }
+  20% {
+    left: -40px;
+  }
+  40% {
+    left: 40px;
+  }
+  60% {
+    left: -40px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+.input {
+  width: 80%;
+  background-color: #242a39;
+  height: 2vh;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  transform: skew(-5deg);
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
+  color: gray;
+}
+.subcribeButton {
+  width: 70%;
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 72px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Luckiest Guy;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(
+    bottom,
+    #ffcc00 10%,
+    #ffda48 50%,
+    #fff430 100%,
+    #000000 100%
+  );
+  transform: skew(-8deg);
+  font-size: 24px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.subcribeButton:hover {
+  width: 70%;
+  height: 72px;
+  margin-bottom: 20px;
+  color: #5d380d;
+  font-family: Luckiest Guy;
+  background: #dd920e;
+  transform: skew(-8deg);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.farmer {
+  font-family: Luckiest Guy;
+  font-size: 44px;
+  margin-top: 50px;
+  text-shadow: 6px 6px 6px black;
+  color: #ecb50c;
+}
+.joinOurDiscard {
+  background-color: #242a39;
+  height: 30vh;
+  border-radius: 10px;
+  font-size: 26px;
+  transform: skew(-1deg);
+  font-family: Luckiest Guy;
+  color: #ffffff;
+  text-shadow: 6px 6px 6px black;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .input {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .baba {
+    height: 150px;
+  }
+  .footerContainer .subcribeButton{
+    margin-top: 50px;
+  }
+  #footerDiv{
+    height: 40vh;
+  }
+  #aboutFooterContainer {
+    flex-flow: wrap;
+  }
+  .footerContainer {
+    width: 80%;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .logo {
+    height: 200px;
+  }
+  .parallelogram1 {
+    width: 12%;
+    height: 50px;
+    font-size: 15px;
+  }
+}

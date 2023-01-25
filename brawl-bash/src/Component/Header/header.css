@@ -1,0 +1,240 @@
+.herologo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+.imagesize{
+  width: 25%;
+  height: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.homedesktop{
+  background-image: url(/public/Banner.svg);
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+.secondHeading{
+    position:absolute;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family:Luckiest Guy;
+    font-size: 44px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.secondTextHeading{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    bottom:300px;
+    font-family:Luckiest Guy;
+    color: #494947;
+    font-size: 26px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.secondText{
+    width: 18%;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    bottom:130px;
+    font-family:Mikado;
+    font-weight: bold;
+    color: #494947;
+    font-size: 26px;
+    text-align: center;
+}
+.secondHeading1{
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family:Luckiest Guy;
+    font-size: 44px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.parallelogram {
+    width: 198px;
+    border:2px solid black;
+    height: 72px;
+    font-family:Luckiest Guy;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(bottom, #FFCC00  10%, #FFDA48 50%, #FFF430 100%, #000000 100%);
+    transform: skew(-8deg);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .parallelogram a{
+   color: white;
+   text-decoration: none;   
+  }
+  .parallelogram:hover {
+    width: 198px;
+    height: 72px;
+    color: #5D380D;
+    font-family:Luckiest Guy;
+    background:#DD920E ;
+    transform: skew(-8deg);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .mobileParallelogram:hover {
+    color: #5D380D;
+    font-family:Luckiest Guy;
+    transform: skew(-8deg);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .mobileParallelogram{
+    font-family:Luckiest Guy;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transform: skew(-8deg);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .miniImageLeft{
+      /* position: absolute; */
+      left:250px;
+  }
+  .miniImageRight{
+    /* position: absolute; */
+    right:250px;
+}
+.crossButton{
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width : 1600px) {
+    .miniImageLeft{
+        /* position: absolute; */
+        left:150px;
+    }
+    .miniImageRight{
+      /* position: absolute; */
+      right:150px;
+  }
+  .imagesize{
+    width: 25%;
+  }
+}
+
+
+  @media screen and (max-width: 1400px) {
+    .parallelogram {
+        width: 150px;
+        border:2px solid black;
+        height: 72px;
+        font-family:Luckiest Guy;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ECB50C;
+        transform: skew(-8deg);
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+      .parallelogram a{
+       color: white;
+       text-decoration: none;   
+      }
+      .parallelogram:hover {
+        width: 150px;
+        height: 72px;
+        color: #5D380D;
+        font-family:Luckiest Guy;
+        background:#DD920E ;
+        transform: skew(-8deg);
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+      }
+      .miniImageLeft{
+        /* position: absolute; */
+        left:170px;
+    }
+    .miniImageRight{
+      /* position: absolute; */
+      right:170px;
+  }
+  .imagesize{
+    width: 22%;
+  }
+    
+    
+    @keyframes brawl-bash {
+      0%   {top:2vh}
+      20%   {left:-40px}
+      40%   {left:40px}
+      60%   {left:-40px}
+      100% {left:39vw; top:4vh}
+      }
+  }
+  @media screen and (max-width:400px) {
+    .imagesize{
+      width: 10%;
+    }
+   
+   
+   @keyframes brawl-bash {
+    0%   {top:2vh}
+    20%   {left:-40px}
+    40%   {left:40px}
+    60%   {left:-40px}
+    100% {left:39vw; top:2vh}
+ }
+  }
+  @media screen and (max-width:600px) {
+    .imagesize{
+      width: 14%;
+    }
+   
+   
+   @keyframes brawl-bash {
+    0%   {top:2vh}
+    20%   {left:-40px}
+    40%   {left:40px}
+    60%   {left:-40px}
+    100% {left:39vw; top:10vh}
+ }
+  }
+  @media screen and (max-width:700px) {
+    .imagesize{
+      width: 16%;
+    }
+   
+   
+   @keyframes brawl-bash {
+    0%   {top:2vh}
+    20%   {left:-40px}
+    40%   {left:40px}
+    60%   {left:-40px}
+    100% {left:39vw; top:13vh}
+ }
+  }
+  @media screen and (max-width:900px) {
+    .imagesize{
+      width: 18%;
+    }
+   
+   @keyframes brawl-bash {
+    0%   {top:2vh}
+    20%   {left:-40px}
+    40%   {left:40px}
+    60%   {left:-40px}
+    100% {left:39vw; top:4vh}
+ }
+  }

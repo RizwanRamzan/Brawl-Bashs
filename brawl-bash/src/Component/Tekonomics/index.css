@@ -1,0 +1,192 @@
+
+#tekonomics{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+    /* position: relative;
+    animation-duration: 5s;
+    animation-name: tekonom;
+    animation-fill-mode: forwards;
+    animation-delay: 1s; */
+}
+/* @keyframes tekonom {
+  0%   {left:40px}
+  20%   {left:-40px}
+  40%   {left:40px}
+  60%   {left:-40px}
+  100% {left:0px}
+} */
+
+.tekonomicsContainer{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 100px; */
+}
+#triangle-topLeft  {
+  background-color: #EDC300;
+  width: 50%;
+  border-radius: 10px;
+  height: 700px;
+  padding-left: 50px;
+  clip-path: polygon(0 0, 100% 0%, calc(100% - 100px) 100%, 0% 100%);
+  }
+
+  #triangle-topright {
+    background-color: #343C51;
+    width: 50%;
+    border-radius: 10px;
+    height: 700px;
+    clip-path: polygon(100px 0, 100% 0%, calc(100% - 0px) 100%, 0% 100%);
+  }
+  .background{
+    width: 100%;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+.container {
+  padding: 2px 16px;
+height: 100%;
+}
+.infinity {
+  position: relative;
+  width: 200px;
+  height: 90px;
+  box-sizing: content-box;
+}
+.infinity:before,
+.infinity:after {
+  content: "";
+  box-sizing: content-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border: 20px solid #0081FC;
+  border-radius: 40px 50px 0 50px;
+  transform: rotate(-45deg);
+}
+.infinity:after {
+  left: auto;
+  right: 0;
+  border-radius: 50px 50px 50px 0;
+  transform: rotate(45deg);
+}
+.tokenmics{ 
+  width: 50px;
+  font-family:Luckiest Guy;
+  color: black;
+  font-size: 44px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.tokenmics-text{
+  width: 80%;
+  font-family:Mikado;
+  color: #494947;
+height: 45vh;
+  line-height: 50px;
+  padding-top: 10px;
+  font-size: 26 px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.tokenmics-padding{
+  padding-top: 40px;
+  padding-left: 20%;
+}
+.bar{
+  width: 70%;
+  background: -webkit-linear-gradient(top, #FFCC00  50%, #FFDA48 30%, #FFF430 100%, #000000 100%);
+
+  border-radius:30px;
+  z-index: 1px;
+}
+.brawlText{
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  font-size: 22;
+  font-family: Montserrat;
+  color: #F4F4EF;
+}
+
+
+  @media screen and (max-width: 700px) {
+    #triangle-topright {
+        margin-top: 20px;
+    }
+    .tekonomicsContainer {
+        flex-direction: column;
+        align-items: center;
+      }
+      .cardContainer {
+        width: 80%;
+        margin-left: 60px;
+        margin-bottom: 20px;
+      }
+
+      
+  }
+  
+
+  @media screen and (max-width: 1000px) {
+    #triangle-topLeft {
+      background-color: #EDC300;
+      border-radius: 10px;
+      width: 80%;
+      height: 700px;
+      padding-left: 10px;
+      clip-path: polygon(0 0, 100% 0%, calc(100% - 60px) 100%, 0% 100%);
+      }
+    
+      #triangle-topright {
+        background-color: #343C51;
+        width: 80%;
+        border-radius: 10px;
+        height: 700px;
+        clip-path: polygon(60px 0, 100% 0%, calc(100% - 0px) 100%, 0% 100%);
+      }
+      .tokenmics{ 
+        width: 50%;
+        font-family:Luckiest Guy;
+        color: black;
+        padding-top: 20px;
+        font-size: 34px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+      .brawlText{
+        width: 60%;
+        display: flex;
+        justify-content: end;
+        font-size:12px;
+        font-family: Montserrat;
+        color: #F4F4EF;
+      }
+  }
+  @media screen and (max-width: 700px) {
+    #triangle-topLeft {
+      background-color: #EDC300;
+      border-radius: 10px;
+      width: 85%;
+      height: 700px;
+      padding-left: 10px;
+      clip-path: polygon(0 0, 100% 0%, calc(100% - 100px) 100%, 0% 100%);
+      }
+    
+      #triangle-topright {
+        background-color: #343C51;
+        width: 85%;
+        border-radius: 10px;
+        height: 700px;
+        clip-path: polygon(90px 0, 100% 0%, calc(100% - 0px) 100%, 0% 100%);
+      }
+      .tokenmics{ 
+        width: 50%;
+        font-family:Luckiest Guy;
+        color: black;
+        padding-top: 20px;
+        font-size: 30px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+  }

@@ -1,0 +1,170 @@
+.leftDiv{
+    float: left;
+}
+
+
+.rightDiv{
+    float: right;
+}
+
+#game{
+    height:100%;
+    margin-top: -400px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    margin: -10px 0px 0px 0px;
+}
+.banner1{
+    width: 50%;
+    height: 600px;
+    background-color: #EDC300;
+    margin-bottom: 120px;
+    border-radius: 16px;
+}
+.banner3{
+    margin: 20px;
+    height: 90%;
+}
+.bannerBackground{
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+    border: 10px solid white
+}
+.leftLogo{
+    margin-top: 400px;
+    height: 333px;
+    margin-bottom: 210px;
+    visibility: visible;
+    position: relative;
+    animation-duration: 5s;
+    animation-name: logo1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    margin-left: 10px;
+}
+@keyframes logo1 {
+  0%   {right:80px;top:-100px;}
+  20%   {right:-40px;top:100px;}
+  40%   {right:40px;top:100px;}
+  60%   {right:-40px;top:100px;}
+  100% {right:0px; top:-200px;}
+}
+.rightLogo{
+    margin-top: 400px;
+    height: 333px;
+    margin-bottom: 110px;
+    visibility: visible;
+    position: relative;
+    animation-duration: 5s;
+    animation-name: logo2;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+@keyframes logo2 {
+  0%   {right:80px;top:0px;}
+  20%   {right:-40px;top:0px;}
+  40%   {right:40px;top:0px;}
+  60%   {right:-40px;top:0px;}
+  100% {right:-40px; top:0px;}
+}
+.boyLogo{
+    margin-top: 200px;
+    width:50%;
+    visibility: visible;
+    position: relative;
+    right: 0px;
+    top: -100px;
+}
+.girlLogo{
+    margin-top: 200px;
+    width: 40%;
+    visibility: visible;
+}
+
+@media screen and (max-width : 1200px) {
+    .leftDiv{
+        width: 50%;
+    }
+    .rightDiv{
+        width: 50%;
+    }
+    .boyLogo{
+        margin-top:0px;
+        margin-left: 80px;
+        margin-top: -60px;
+    }
+    .leftLogo{
+        height: 100px;
+    }
+    .girlLogo{
+        margin-top: 200px;
+        width: 30%;
+
+    }
+}
+@media screen and (max-width : 1070px) {
+    @keyframes logo1 {
+      0%   {right:80px;top:100px;}
+      20%   {right:-40px;top:100px;}
+      40%   {right:40px;top:100px;}
+      60%   {right:-40px;top:100px;}
+      100% {right:0px; top:200px;}
+    }
+    .rightLogo{
+        margin-top: 500px;
+        height: 150px;
+    }
+    @keyframes boyLogo {
+      0%   {right:80px;top:0px;}
+      20%   {right:-40px;top:0px;}
+      40%   {right:40px;top:0px;}
+      60%   {right:-40px;top:0px;}
+      100% {right:0px; top:0px;}
+    }
+    .girlLogo{
+        margin-top: 200px;
+        width: 30%;
+    }
+    .leftDiv{
+        float: left;
+    }
+    
+    
+    .rightDiv{
+        float: right;
+    }
+}@media screen and (max-width:700px) {
+    .banner{
+        display: flex;
+        justify-content: center;
+        margin: -10px 0px 0px 0px;
+    }
+    .banner1{
+        width: 80%;
+        height: 600px;
+        background-color: #EDC300;
+        margin-bottom: 120px;
+        border-radius: 16px;
+    }
+    .banner3{
+        margin: 20px;
+        height: 90%;
+    }
+    .bannerBackground{
+        height: 100%;
+        background-size: cover;
+        border-radius: 10px;
+        border: 10px solid white;
+    }
+    .rightLogo{
+        height: 100px;
+        margin-top: 600px;
+        left: 10%;
+    }
+    .girlLogo{
+        margin-bottom: 90px;
+    }
+}

@@ -1,0 +1,175 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+.width{
+    width: 80%;
+    background-color: #343C51;
+    height: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 200px;
+}
+.innerWidth{
+    width: 80%;
+    background-color: #242A39;
+    height: 80vh;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.mobileInnerWidth{
+    width: 80%;
+    background-color: #242A39;
+    height: auto;
+    border-radius: 5px;
+}
+.advisorButton{
+    margin-bottom: 50px;
+    position: relative;
+    top:-50px;
+    width: 30%;
+    height: 15vh;
+    font-size: 100%;
+    border-radius: 30px;
+    border:2px solid black;
+    font-family:Luckiest Guy;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(bottom, #FFCC00  10%, #FFDA48 50%, #FFF430 100%, #000000 100%);
+    transform: skew(-8deg);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.advisorCard{
+    /* background-color: #EC8D43; */
+    width: 50%;
+    height: 16vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advisorBackground{
+    width: 90%;
+    margin-top: 20px;
+    background-size: cover;
+    height: 50vh;
+
+}
+.cardHeading{
+    font-size: 100%;
+    font-family:Luckiest Guy;
+    color: black;
+    cursor: pointer;
+    padding-top:100px ;
+}
+.cardText{
+    font-size: 100%;
+    font-family:Mikado;
+    font-weight: bold;
+    color: #494947;
+    cursor: pointer;
+    padding:10px ;
+}
+.mainDiv{
+    width: 25%;
+}
+.advisorContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px;
+}
+.mobileAdvisorContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.margin{
+    margin-left: 180px;
+    margin: 30px;
+}
+@media screen and (max-width:1650px) {
+    .advisorBackground{
+        width: 40vw;
+    }
+    .cardText{
+        font-family:Mikado;
+        font-weight: bold;
+        color: #494947;
+        padding:10px ;
+        font-size: medium;
+
+    }
+    .cardHeading{
+        font-family:Luckiest Guy;
+        color: black;
+        cursor: pointer;
+        padding-top:50px ;
+        font-size: medium;
+    }
+}
+@media screen and (max-width:1000px) {
+    .advisorCard{
+        width: 60%;
+        height: 12vh;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .advisorBackground{
+        width: 100%;
+        margin-top: 20px;
+        background-size: cover;
+        height: 50vh;
+    
+    }
+    .cardHeading{
+        margin: 50px;
+        font-family:Luckiest Guy;
+        color: black;
+        cursor: pointer;
+        padding-top:50px ;
+    }
+    .cardText{
+        font-family:Mikado;
+        font-weight: bold;
+        color: #494947;
+        cursor: pointer;
+        padding:10px ;
+    }
+    .mainDiv{
+        width:50%;
+    }
+}
+@media screen and (max-width:700px) {
+    .cardHeading{
+        padding-top:10px ;
+        font-size: 15px;
+    }
+    .cardText{
+        font-size: 10px;
+    }
+    .advisorBackground{
+        width: 100%;
+        margin-top: 30px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .mobileInnerWidth{
+        width: 90%;
+        background-color: #242A39;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .advisorButton{
+        width: 150px;
+    }
+}
+
+

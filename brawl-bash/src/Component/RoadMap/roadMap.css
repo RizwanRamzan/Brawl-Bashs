@@ -1,0 +1,62 @@
+.brawlBashBox{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+}
+.brawlBashInnerBox{
+  width: 50%;
+  height: auto;
+  background: -webkit-linear-gradient(bottom, #FFCC00  10%, #FFDA48 50%, #FFF430 100%, #000000 100%);
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.brawlBashInnerBox1{
+  width: 90%;
+  height: 60vh;
+  background: -webkit-linear-gradient(bottom, #FFCC00  10%, #FFDA48 50%, #FFF430 100%, #000000 100%);
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+  border-radius: 5px;
+  border: 2px solid white;
+  margin: 15px;
+}
+.brawlBashHeading{
+  font-size: 23px;
+  font-family: Luckiest Guy;
+}
+.paragraph{
+  margin: 30px;
+  text-align: center;
+  line-height: 40px;
+  height: auto;
+}
+
+  @media screen and (max-width:1350px) {
+    .brawlBashInnerBox{
+      width: 60%;
+    }
+    .brawlBashHeading{
+      font-size: 17px;
+      font-family: Luckiest Guy;
+    }
+    .paragraph{
+      margin: 50px;
+      text-align: center;
+      line-height: 40px;
+      height: auto;
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:1000px) {
+    .brawlBashInnerBox{
+      width:80%;
+    }
+
+  }
+
+
+
